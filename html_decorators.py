@@ -23,8 +23,9 @@ def p(func):
 
 
 # Here you must apply the decorators, uncomment this later
-#@div
-#@article
+
+@div
+@article
 @p
 def saludo(nombre):
     return f'¡Hola {nombre}, ¿Cómo estás?'
@@ -37,7 +38,7 @@ def run():
 if __name__ == '__main__':
     run()
 
-# We want to have three different outputs 👇🏼
+# → We want to have →three← different outputs 👇🏼
 
 # <div>¡Hola Jorge, ¿Cómo estás?'</div>
 # <article>¡Hola Jorge, ¿Cómo estás?'</article>
